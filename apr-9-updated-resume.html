@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Resume of Aafaq Ali</title>
+    <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"> -->
+    <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet">
+    <style type="text/css">
+    @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800);
+@charset "utf-8";
+@-webkit-viewport   { width: device-width; }
+@-moz-viewport      { width: device-width; }
+@-ms-viewport       { width: device-width; }
+@-o-viewport        { width: device-width; }
+@viewport           { width: device-width; }
+
+body{
+  font-family: 'Open Sans', Arial, Tahoma;
+  font-weight: 400;
+  color: #363636;
+  background: #334960;
+}
+blockquote {
+  font-size: 1em;
+}
+
+.container{
+  margin-top: 80px;
+  margin-bottom: 15px;
+  background: #fff;
+}
+
+#photo-header{
+  margin-top: -75px;
+}
+#photo{
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  overflow: hidden;
+  padding: 5px;
+  background: #334960;
+  display: inline-block;
+}
+#photo img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+#text-header h1{
+  margin: 0;
+  padding: 0;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
+#text-header h1::first-line{
+  font-size: 1.5em;
+  font-weight: 800;
+  line-height: 1.5em;
+}
+#text-header h1 span{
+  color: #334960;
+  opacity: 0.7;
+}
+#text-header h1 sup{
+  opacity: 0.5;
+}
+#text-header:after{
+  width: 100%;
+  height: 3px;
+  border-bottom: 1px solid #ddd;
+  margin-top: 15px;
+  content: '';
+  display: block;
+}
+
+.box{
+  padding-bottom: 10px;
+  margin-bottom: 25px;
+}
+.box h2{
+  color: #227c74;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#awards,
+#education{
+  margin-top: 20px;
+  margin-bottom: 0;
+  position: relative;
+  padding: 1em 0;
+  list-style: none;
+}
+#awards:before,
+#education:before {
+  width: 5px;
+  height: 100%;
+  position: absolute;
+  left: 35px;
+  top: 0;
+  content: ' ';
+  display: block;
+  background: #32475c;
+  background: -moz-linear-gradient(top,  #ffffff 0%, #32475c 7%, #32475c 89%, #ffffff 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(7%,#32475c), color-stop(89%,#32475c), color-stop(100%,#ffffff));
+  background: -webkit-linear-gradient(top,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
+  background: -o-linear-gradient(top,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
+  background: -ms-linear-gradient(top,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
+  background: linear-gradient(to bottom,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 );
+}
+#awards li,
+#education li{
+  width: 100%;
+  z-index: 2;
+  position: relative;
+  float: left;
+}
+#awards .year,
+#education .year{
+  width: 14%;
+  background: #fff;
+  padding: 10px;
+  font-weight: 700;
+  display: inline-block;
+}
+#awards .description,
+#education .description{
+  width: 83%;
+  display: inline-block;
+  background: #eee;
+  margin-bottom: 10px;
+  position: relative;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+#awards .description:after,
+#education .description:after {
+  content: '';
+  position: absolute;
+  top: 15px;
+  right: 0;
+  left: -16px;
+  height: 0;
+  width: 0;
+  border: solid transparent;
+  border-right-color: #eee;
+  border-width: 8px;
+  pointer-events: none;
+}
+#awards .description h3,
+#education .description h3{
+  font-size: 1.2em;
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+}
+#awards .description p,
+#education .description p{
+  margin-top: 5px;
+  padding: 0;
+}
+
+.job{
+  margin-bottom: 15px;
+}
+.job .details {
+  margin-left: 3%;
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background: #eee;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+.job .where{
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.job .year{
+  opacity: 0.7;
+}
+.job .profession{
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.job .description{
+  line-height: 1.5em;
+}
+.job .highlights{
+  padding: 5px 0;
+  font-weight: bold;
+}
+.job .job-details {
+  padding-left: 5%;
+  width: 100%;
+}
+.publication {
+  margin-bottom: 0;
+}
+.publication .name{
+  font-size: 1em;
+  font-weight: bold;
+}
+.publication .year{
+    opacity: 0.7;
+}
+.publication p{
+  margin: 0;
+  padding-top: 10px;
+}
+
+.contact-item{
+  width: 100%;
+  float: left;
+}
+.contact-item .icon{
+  padding: 10px;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  color: #32475c;
+  background: #eee;
+}
+.contact-item:last-child .icon{
+  border-bottom: none;
+}
+.contact-item .title{
+  width: 80%;
+  width: calc(100% - 55px);
+  font-weight: 700;
+  opacity: 0.9;
+}
+.contact-item .title.only{
+  margin-top: 10px;
+}
+.contact-item .description{
+  width: 80%;
+  width: calc(100% - 55px);
+  color: #334960;
+}
+
+.item-interests,
+.item-skills{
+  height: 30px;
+  color: #334960;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+.interest,
+.skill{
+  color: #fff;
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding: 5px 10px;
+  background: #32475c;
+  position: relative;
+  font-size: .85em;
+}
+.skill-level {
+  background-color: #227c74;
+  border-radius: 4px;
+  color: #fff;
+  padding: 1px 8px;
+  font-size: .75em;
+  position: absolute;
+  margin: 1px 10px;
+}
+
+#language-skills .skill{
+  margin: 10px 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+    </style>
+    <style type="text/css" media="print">
+    body {
+  font-size: .95em;
+  -webkit-print-color-adjust: exact;
+}
+
+a[href]:after {
+  content: none !important;
+}
+
+#photo{
+  display: none;
+}
+
+.box {
+  margin-bottom: -10px;
+}
+
+blockquote,
+#education,
+#awards,
+.contact-item,
+.publication,
+.skills,
+.interests {
+  page-break-inside: avoid;
+}
+
+.col-sm-5{
+  width: 40%;
+  padding: 0 15px;
+}
+
+.col-sm-7{
+  width: 60%;
+  padding: 0 15px;
+}
+
+.skills .col-sm-offset-1,
+.interests .col-sm-offset-1{
+  margin-top: -10px;
+  margin-bottom: 5px;
+}
+
+#education {
+  margin: 0;
+  margin-bottom: -20px;
+}
+#awards:before,
+#education:before {
+  background: none;
+}
+
+#awards .description,
+#education .description,
+.job .details {
+  border: 1px solid #eee;
+}
+.publication,
+.publication .panel-heading,
+.publication .name{
+  margin: 0;
+  padding: 0 5px;
+  border: none;
+}
+.publication .panel-body {
+  padding: 0 10px;
+  margin: 0;
+}
+
+.badge {
+  margin: 0;
+}
+
+.list-group-item{
+  border: none;
+  margin: 0;
+  padding: 5px 15px;
+}
+.list-group-item:after{
+  content: '';
+  position: absolute;
+  top: 8px;
+  right: 0;
+  left: -1px;
+  height: 0;
+  width: 0;
+  border: solid transparent;
+  border-right-color: #999;
+  border-width: 4px;
+  pointer-events: none;
+ }
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div id="photo-header" class="text-center">
+            <!-- PHOTO (AVATAR) -->
+            <div id="photo">
+              <img src="https:&#x2F;&#x2F;user-images.githubusercontent.com&#x2F;21982416&#x2F;230728857-63d17e95-faec-4ac5-bfbd-51da7b15baff.png" alt="avatar">
+            </div>
+            <div id="text-header" >
+              <h1>Aafaq Ali<br><span>Sr. Android Engineer</span></h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-7">
+          <!-- ABOUT ME -->
+          <div class="box">
+            <h2><i class="fas fa-user ico"></i> About</h2>
+            <p>As a results-driven and highly skilled Sr. Android Engineer, my extensive experience in mobile app development has equipped me with the knowledge and expertise necessary to create top-performing Android applications. With a proven track record of delivering innovative and scalable solutions that meet business objectives, I am committed to staying ahead of emerging trends and technologies to ensure the highest level of quality and user experience.</p>
+          </div>
+          <!-- WORK EXPERIENCE -->
+          <div class="box">
+            <h2><i class= "fas fa-suitcase ico"></i> Work Experience</h2>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">
+                      Cloud Enterprise Business Solutions ( CEBS | Matas )
+                      <div class="pull-right">
+                        Islamabad
+                      </div>
+                    </div>
+                    <div class="year">September 2022 – Present</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Android Engineer</div>
+                    <div class="description">
+                      Cloud Enterprise Business Solutions (CEBS) (Pvt.) Ltd. has been providing top-notch IT and development services since 2011 to clients around the world. As soon as I joined the team, I played a key role in expanding the ClubMatas which already had 100K+ installs on PlayStore - Android. Today, I continue to hone my skills and strive for excellence with each task I undertake.
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Worked on ClubMatas.</li>
+                        <li class="list-group-item">Collaborated with E-Commerce teams.</li>
+                        <li class="list-group-item">Worked on .NET backend.</li>
+                        <li class="list-group-item">Spring Boot.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">
+                      Techless
+                      <div class="pull-right">
+                        Islamabad
+                      </div>
+                    </div>
+                    <div class="year">December 2020 – September 2022</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Sr. Android &amp; AOSP Engineer</div>
+                    <div class="description">
+                      A Texas-based startup selling minimalist smartphones (Wisephone) to families for reducing digital destruction, with 2k+ clients in the US and actively growing. I was part of the core Techless development team in Pakistan, which consisted of 20+ amazing developers. Here I created and maintained WisePhone (AOSP) along with system apps such as a launcher, phone, clock, and many more.
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Worked on Android Enterprise.</li>
+                        <li class="list-group-item">Created WiseOS based on LineageOS (AOSP).</li>
+                        <li class="list-group-item">Worked with Device Policy manager.</li>
+                        <li class="list-group-item">MQTT.</li>
+                        <li class="list-group-item">Figma for UX work.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">
+                      CUBICODES
+                      <div class="pull-right">
+                        Islamabad
+                      </div>
+                    </div>
+                    <div class="year">August 2020 – December 2020</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Sr. Android Engineer</div>
+                    <div class="description">
+                      A Pakistan-based company that specializes in Android applications, With a focus on quality and user experience, One of the company's core strengths is its expertise in App Store Optimization (ASO), By leveraging a deep understanding of the App Store ecosystem and user behavior CUBICODES helps its clients get the most out of their apps and reach a wider audience, Right after joining I worked and completed a few apps that touched 7K+ installs.
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Created a few Utility apps that touched 7K+ installs.</li>
+                        <li class="list-group-item">Worked with PlayStore.</li>
+                        <li class="list-group-item">Worked with AdMob.</li>
+                        <li class="list-group-item">Closely looked at and improved the ASO process.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">
+                      Grithx Solutions
+                      <div class="pull-right">
+                        Islamabad
+                      </div>
+                    </div>
+                    <div class="year">September 2019 – August 2020</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Android Engineer</div>
+                    <div class="description">
+                      Grithx, a Pakistan-based company, is renowned for its child company ZTHosting, and top clients such as Patari and Lahore Qalandars. I started my journey at Grithx as an Android Engineer, where I was able to quickly progress and gain experience working on a variety of projects. During my one-year tenure, I contributed to the success of high-profile projects like Patari, as well as many others.
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Worked on Patari with 100K+ installs.</li>
+                        <li class="list-group-item">Worked on backend technologies.</li>
+                        <li class="list-group-item">Collaborated with external teams.</li>
+                        <li class="list-group-item">WordPress and created custom integrations with Android.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">
+                      Upwork - Self Employed 
+                      <div class="pull-right">
+                        Islamabad
+                      </div>
+                    </div>
+                    <div class="year">September 2018 – July 2020</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Software Engineer</div>
+                    <div class="description">
+                      During my time at university, I started freelancing which provided me with valuable experience and improved my presentation and client-handling skills. These skills have proven beneficial in various aspects of my life and continue to assist me to this day.
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Developed numerous Android applications and solutions for a variety of clients.</li>
+                        <li class="list-group-item">Created and worked on Enterprise Mobility Development kit EMDK for Android.</li>
+                        <li class="list-group-item">Consultation services for AOSP development.</li>
+                        <li class="list-group-item">Worked on IOT projects.</li>
+                        <li class="list-group-item">Worked on GARMIN devices.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">
+                      GitHub - Open Source Contributor
+                      <div class="pull-right">
+                        Islamabad
+                      </div>
+                    </div>
+                    <div class="year">January 2017 – Present</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Software Engineer</div>
+                    <div class="description">
+                      I began my journey as a Linux Bash scripter and swiftly developed a deep understanding of GARMIN, Android, and iOS. I found a particular passion for Android and Linux, which ultimately led me to become a professional AOSP developer for a period of time.
+                      <div class="highlights">Highlights</div>
+                      <ul class="list-group">
+                        <li class="list-group-item">Actively contributed in eXtern-OS.</li>
+                        <li class="list-group-item">Worked on a few IOT projects using NodeMCU.</li>
+                        <li class="list-group-item">Worked on Android Wear/TV apps.</li>
+                        <li class="list-group-item">Worked on Flutter apps in initial phases..</li>
+                        <li class="list-group-item">Worked on Garmin.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <!-- AWARDS -->
+          <div class="box">
+            <h2><i class="fas fa-certificate ico"></i> Awards</h2>
+            <ul id="awards" class="clearfix">
+              <li>
+                <div class="year pull-left"> </div>
+                <div class="description pull-right">
+                  <h3>Placed 3rd in The International Collegiate Programming Contest, inspiring innovation and collaboration for college teams solving real-world problems under pressure.</h3>
+                  <p><i class="fas fa-trophy ico"></i> ICPC (  Provisional Programming Contest )</p>
+                  <p></p>
+                </div>
+              </li>
+              <li>
+                <div class="year pull-left"> </div>
+                <div class="description pull-right">
+                  <h3>I was the runner-up in a programming contest at COMSAT, completing a task within a set time frame. The contest evaluated different sections, such as UI, architecture, standard syntax, and programming practices, with corresponding points.</h3>
+                  <p><i class="fas fa-trophy ico"></i> INNOVATIA 19 ( Android Application Development ) </p>
+                  <p></p>
+                </div>
+              </li>
+              <li>
+                <div class="year pull-left"> </div>
+                <div class="description pull-right">
+                  <h3>I was the speed programming contest runner-up, completing tasks with speed and accuracy within a limited time frame.</h3>
+                  <p><i class="fas fa-trophy ico"></i> INNOVATIA 19 ( Speed Programming Championship) </p>
+                  <p></p>
+                </div>
+              </li>
+              <li>
+                <div class="year pull-left"> </div>
+                <div class="description pull-right">
+                  <h3>The government initiated Android app development workshops in institutes lasting 2-6 months, emphasizing practical programming best practices.</h3>
+                  <p><i class="fas fa-trophy ico"></i> PSDF Software Dev Certification</p>
+                  <p></p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-5">
+          <!-- CONTACT -->
+          <div class="box clearfix">
+            <h2><i class="fas fa-bullseye ico"></i> Contact</h2>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fas fa-map-marker fa-fw"></span></div>
+              
+              <div class="title only  pull-right">Islamabad PK</div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fas fa-phone fa-fw"></span></div>
+              <div class="title only pull-right">+92 31 3713004</div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fas fa-envelope fa-fw"></span></div>
+              <div class="title only pull-right"><a href="mailto:aafaq@msn.com" target="_blank">aafaq@msn.com</a></div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fab fa-twitter fa-fw"></span></div>
+              <div class="title pull-right">twitter</div>
+              <div class="description pull-right"><a href="https:&#x2F;&#x2F;twitter.com&#x2F;Aafaqale" target="_blank">Aafaqale</a></div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fab fa-github fa-fw"></span></div>
+              <div class="title pull-right">github</div>
+              <div class="description pull-right"><a href="https:&#x2F;&#x2F;github.com&#x2F;AafaaqAli" target="_blank">AafaaqAli</a></div>
+            </div>
+          </div>
+          <!-- EDUCATION -->
+          <div class="box">
+            <h2><i class="fas fa-university ico"></i> Education</h2>
+            <ul id="education" class="clearfix">
+              <li>
+                <div class="year pull-left">2016 2020</div>
+                <div class="description pull-right">
+                  <h3>Preson University</h3>
+                  <div class="where"></div>
+                  <p><i class= "fas fa-graduation-cap ico"></i> Bachelor</p>
+                  <p>Bachelor of Computer Science.</p>
+                </div>
+              </li>
+              <li>
+                <div class="year pull-left">2013 2016</div>
+                <div class="description pull-right">
+                  <h3>Ghazi University</h3>
+                  <div class="where"></div>
+                  <p><i class= "fas fa-graduation-cap ico"></i> Intermediate - Pre-Engineering.</p>
+                  <p>Pre Engineering</p>
+                </div>
+              </li>
+              <li>
+                <div class="year pull-left">2010 2012</div>
+                <div class="description pull-right">
+                  <h3>GCHHS</h3>
+                  <div class="where"></div>
+                  <p><i class= "fas fa-graduation-cap ico"></i> Matriculation</p>
+                  <p>Matriculated with a major in Biology.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!-- SKILLS -->
+          <div class="box">
+            <h2><i class="fas fa-tasks ico"></i> Skills</h2>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Android
+                  <span class="skill-level">Senior</span>
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">Kotlin / Java</span>
+                <span class= "skill badge">XML</span>
+                <span class= "skill badge">Jetpack Compose</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  KMM
+                  <span class="skill-level">Mid-Senior</span>
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">Kotlin</span>
+                <span class= "skill badge">Swift</span>
+                <span class= "skill badge">Swift UI</span>
+                <span class= "skill badge">XCode</span>
+                <span class= "skill badge">Android Studio</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  IOS
+                  <span class="skill-level">Mid-Junior</span>
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">Swift</span>
+                <span class= "skill badge">Swift UI</span>
+                <span class= "skill badge">XCode</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Backend
+                  <span class="skill-level">Mid-Senior</span>
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">Spring Boot</span>
+                <span class= "skill badge">Postgres</span>
+                <span class= "skill badge">Mongo</span>
+                <span class= "skill badge">Redis</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Devops
+                  <span class="skill-level">Junior</span>
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">AWS</span>
+                <span class= "skill badge">Azure</span>
+                <span class= "skill badge">Docker</span>
+                <span class= "skill badge">Kubernetes</span>
+                <span class= "skill badge">Heroku</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  CI&#x2F;CD
+                  <span class="skill-level">Senior</span>
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">GitLab CI/CD</span>
+                <span class= "skill badge">AWS CodePipeline</span>
+                <span class= "skill badge">Jenkins</span>
+                <span class= "skill badge">CircleCI</span>
+                <span class= "skill badge">Travis CI</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Frontend
+                  <span class="skill-level">Mid-Senior</span>
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">HTML</span>
+                <span class= "skill badge">SCSS / CSS</span>
+                <span class= "skill badge">Javascript / Typescript</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Development techniques
+                  <span class="skill-level">Senior</span>
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">Test-driven development (TDD)</span>
+                <span class= "skill badge">Trunk-based development</span>
+                <span class= "skill badge">Continuous integration and continuous delivery (CI/CD)</span>
+                <span class= "skill badge">Behavior-driven development (BDD)</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Libraries
+                  <span class="skill-level">Senior</span>
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">Retrofit</span>
+                <span class= "skill badge">Moshi</span>
+                <span class= "skill badge">Dagger/Dagger2</span>
+                <span class= "skill badge">Hilt</span>
+                <span class= "skill badge">Room</span>
+                <span class= "skill badge">LiveData</span>
+                <span class= "skill badge">coroutines</span>
+                <span class= "skill badge">LeakCannery</span>
+                <span class= "skill badge">Flipper</span>
+                <span class= "skill badge">Stetho</span>
+                <span class= "skill badge">Lombok</span>
+                <span class= "skill badge">Timber</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Architecture
+                  <span class="skill-level">Senior</span>
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">Clean Code</span>
+                <span class= "skill badge">MVVM</span>
+                <span class= "skill badge">MVP</span>
+                <span class= "skill badge">MVC</span>
+                <span class= "skill badge">Redux</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Design Pattern
+                  <span class="skill-level">Senior</span>
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">Builder</span>
+                <span class= "skill badge">Singleton</span>
+                <span class= "skill badge">Dependency Injection</span>
+                <span class= "skill badge">Repository</span>
+                <span class= "skill badge">Observer</span>
+                <span class= "skill badge">Facade</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Designing
+                  <span class="skill-level">Senior</span>
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">Figma</span>
+                <span class= "skill badge">Zeplin</span>
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Collaboration
+                  <span class="skill-level">Senior</span>
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+                <span class= "skill badge">Gerrit</span>
+                <span class= "skill badge">GitHub</span>
+                <span class= "skill badge">Bitbucket</span>
+              </div>
+            </div>
+          </div>
+          <!-- HOBBIES -->
+          <div class="box">
+            <h2><i class="fas fa-heart ico"></i> Interests</h2>
+            <div class="interests clearfix">
+              <div class="item-interests">
+                  E-Sports
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="interests clearfix">
+              <div class="item-interests">
+                  YouTube Content Creation
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="interests clearfix">
+              <div class="item-interests">
+                  Open Source Contribution
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="interests clearfix">
+              <div class="item-interests">
+                  Reading &#x2F; Writing
+              </div>
+              <div class="col-sm-offset-1 col-sm-12 clearfix">
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <h2><i class= "fas fa-check-square ico"></i> References</h2>
+            <blockquote>
+              <div>I would highly recommend Aafaq as an Android developer. He has a strong understanding of the Android platform and is skilled in using the latest tools and technologies to develop innovative and high-quality mobile applications. He is a quick learner and is always looking for ways to improve his skills and stay up-to-date on the latest developments in the field. 
+I have had the pleasure of working with Aafaq on several projects as his manager. He has consistently impressed me with his attention to detail, problem-solving skills, and ability to deliver results on time. He is a team player and is able to collaborate effectively with cross-functional teams to ensure that projects are completed successfully.
+I have no doubt that Aafaq will be an asset to any organization and I highly recommend him for any Android development opportunity.</div>
+              <footer>
+                <a href="" target= "_blank">Laeeq Reham, Co-founder and CEO of LEED, PVT.LTD.</a>
+              </footer>
+            </blockquote><br>
+            <blockquote>
+              <div>Working with Ali has been great! He’s always very responsive, thoughtful, and fun to work with. His positive attitude in the workplace and general excellence in developing truly powerful technical solutions has helped him stand out as an excellent developer to have on our team! He has contributed so much at Techless and with a humble spirit!</div>
+              <footer>
+                <a href="" target= "_blank">Nicholas Burgher, Product Designer, Techless.</a>
+              </footer>
+            </blockquote><br>
+            <blockquote>
+              <div>Aafaq is very passionate about his work and has an incredible eye for his work. He is not only a multi-skilled and insightful colleague, but also an inspiring person.</div>
+              <footer>
+                <a href="" target= "_blank">Zainab Zahra, Sr. HR Lead, Embrace IT.</a>
+              </footer>
+            </blockquote><br>
+            <blockquote>
+              <div>I am pleased to introduce you to Afaq Ali, a talented software developer and engineer. He has a wealth of experience in developing software applications, coding, and creating databases for various businesses.
+Afaq Ali is an asset to any project due to his ability to understand new technologies quickly and debug complex problems efficiently. He is highly organized and pays attention to detail in order to deliver high-quality work on time. Afaq is also an excellent communicator, who can explain complex concepts in a straightforward manner.
+We are confident that Afaq skillset will add tremendous value to your organization. Please do not hesitate to reach out if you have any questions or wish to discuss the opportunity further.</div>
+              <footer>
+                <a href="" target= "_blank">Ali Usman, Test Specialist, IBM.</a>
+              </footer>
+            </blockquote><br>
+            <blockquote>
+              <div>Ali is an excellent Software Engineer. I had the pleasure of working with him. His ability to work through the crisis and develop new ways to achieve the targets was always inspiring. I am delighted to work and learn with such professionals.</div>
+              <footer>
+                <a href="" target= "_blank">Beenish Tariq, Project Manager, Developers Studio.</a>
+              </footer>
+            </blockquote><br>
+            <blockquote>
+              <div>Aafaq is a key player on the team, I have worked with him on some of the freelance projects and it's been truly amazing how productive and professional he is in his work.
+Highly recommended, he is an asset to any company.</div>
+              <footer>
+                <a href="" target= "_blank">Muhammad Bilal, CTO, AppTrick.</a>
+              </footer>
+            </blockquote><br>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>

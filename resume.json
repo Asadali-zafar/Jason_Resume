@@ -1,0 +1,188 @@
+{
+    "meta": {
+        "theme": "actual"
+    },
+    "basics": {
+        "name": "Assad Ali",
+        "label": "Data Scientist",
+        "image": "https://avatars.githubusercontent.com/u/123011688?v=4",
+        "summary": "Hello! I am an enthusiastic Data scientist and Machine learning engineer. With strong foundations in Statistics, Mathematics, Programming, and analytical skills, I am capable of getting insights from underlying patterns of data and solve complex problems related to data.",
+        "website": "Asadali-zafar.github.io",
+        "email": "asadalizafar@hotmail.com",
+        "phone": "+92 31 155997938",
+        "location": {
+            "city": "Islamabad",
+            "countryCode": "PK"
+        },
+        "profiles": [
+            
+            {
+                "url": "https://github.com/Asadali-zafar",
+                "username": "Asadali-zafar",
+                "network": "github"
+            },
+
+            {
+                "url": "https://www.linkedin.com/in/assad-ali-158819280/",
+                "username": "Assad Ali",
+                "network": "Linkedin"
+            }
+        
+        ]
+    },
+
+    "education": [
+        {
+            "startDate": "2019-12-12",
+            "endDate": "2023-12-12",
+            "area": "Bachelor in Mechatronics and Ai.",
+            "studyType": "Bachelor",
+            "institution": "UET Lahore"
+        }
+    ],
+    
+    "skills": [
+        {
+            "keywords": [
+                "Python",
+                "SQL",
+                "Html | CSS"
+            ],
+            
+            "name": "Languages"
+        },
+        {
+            "keywords": [
+                "Numpy",
+                "Pandas",
+                "Matplotlib",
+                "Plotly"
+            ],
+            "name": "Libraries"
+        },
+        {
+            "keywords": [
+                "Scikit-learn",
+                "Tensorflow",
+                "Keras"
+            ],
+            
+            "name": "Frameworks"
+        },
+        {
+            "keywords": [
+                "Regression",
+                "Classificaion",
+                "SVM",
+                "Clustering",
+                "Segmentation",
+                "Decision Trees",
+                "Bagging",
+                "Booosting"
+            ],
+            
+            "name": "Machine Learning Algorithms"
+        },
+        {
+            "keywords": [
+                "Parallel processing",
+                "Databricks",
+                "Data-lakes",
+                "Data-Factory",
+                "Pyspark",
+                "Microsoft Power BI"
+            ],
+            
+            "name": "Big Data"
+        },
+        {
+            "keywords": [
+                "ANNs",
+                "CNNs"
+                
+            ],
+            
+            "name": "Deep Learning"
+        },
+        {
+            "keywords": [
+                "HTML",
+                "CSS",
+                "Flask"
+            ],
+          
+            "name": "Web Development"
+        },
+        {
+            "keywords": [
+                "Git",
+                "GitHub"
+            ],
+            
+            "name": "Version Control"
+        }
+    ],
+
+
+    
+    "work": [
+        
+        {
+            "summary": "As a Junior data scientist and Machine learning intern at TECHNOVATE Pvt Ltd, I got hands-on experience with real-world data for predicting the prices of houses in the main cities of Pakistan. During this project, I honed the skills given below:",
+            "location": "Islamabad",
+            "name": "TECHNOVATE pvt Ltd.",
+            "position": "Data Scientist and ML engineer",
+            "startDate": "2023-04-01",
+            "endDate": "2023-07-01",
+            "highlights": [
+                "» Feature Engineering (𝐃𝐚𝐭𝐚 𝐓𝐫𝐚𝐧𝐬𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧)",
+                "» Pandas / NumPy (𝐃𝐚𝐭𝐚 𝐌𝐚𝐧𝐢𝐩𝐮𝐥𝐚𝐭𝐢𝐨𝐧)",
+                "» Scikit-learn / TensorFlow (𝐅𝐫𝐚𝐦𝐞𝐰𝐨𝐫𝐤𝐬)",
+                "» Plotly / MS Power BI / Matplotlib (𝐕𝐢𝐬𝐮𝐚𝐥𝐢𝐳𝐚𝐭𝐢𝐨𝐧)",
+                "» Bagging / Boosting / Clustering (𝐀𝐥𝐠𝐨𝐫𝐢𝐭𝐡𝐦𝐬)",
+                "» PySpark (𝐏𝐚𝐫𝐚𝐥𝐥𝐞𝐥 𝐩𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠)",
+                "» Statistical Measures"
+            ]
+        },
+        {
+            "summary": "I have been an open-source contributor on GitHub. As a contributor, I always strive to work on new projects whenever I create a new repository in order to gain diverse knowledge. Some of my projects are:",
+            "name": "GitHub - Open Source Contributor",
+            "image": "",
+            "location": "Islamabad",
+            "position": "Data Scientist",
+            "startDate": "2022-12-08",
+            "highlights": [
+
+                "» 𝐂𝐮𝐬𝐭𝐨𝐦𝐞𝐫 𝐬𝐞𝐠𝐦𝐞𝐧𝐭𝐚𝐭𝐢𝐨𝐧 on retail data",
+                "» Exploratory Data Analysis 𝐄𝐃𝐀",
+                "» 𝐑𝐅𝐌 𝐚𝐧𝐚𝐥𝐲𝐬𝐢𝐬 for loyal customers",
+                "» 𝐅𝐚𝐜𝐢𝐚𝐥 𝐑𝐞𝐜𝐨𝐠𝐧𝐢𝐭𝐢𝐨𝐧 (CNN)"        
+            ]
+        }
+    ],
+    "interests": [
+        {
+            "name": "Football"
+        },
+        {
+            "name": "Gardening"
+        },
+        {
+            "name": "Open Source Contribution"
+        },
+        {
+            "name": "TV-shows"
+        }
+    ],
+
+    "languages": [
+        {
+            "language": "English"
+        },
+        
+        {
+            "language": "Urdu"
+        }
+    ]
+
+}
